@@ -5,9 +5,6 @@ import csv
 from datetime import datetime
 
 
-fileName = "data.csv"
-
-
 def sendData(timestamp, value):
     
     result = ""
@@ -37,27 +34,34 @@ def sendData(timestamp, value):
 
 def readFromFile():
     
-    global fileName
+    fileName = getFileName()
     data = []
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")    
     kwh = 0
     
-    with open(fileName, "r") as f:
-        spamreader = csv.reader(f, delimiter=";", quotechar="|")
-        try:
-            data = list(spamreader)
-            lastRow = data[-1]
-            timestamp = lastRow[0]
-            kwh = lastRow[1]
-        except:
-            print("Error reading file")
+    try:
+        f = open(fileName, 'r')
+    except IOError:
+        f = open(fileName, 'w')
+
+    spamreader = csv.reader(f, delimiter=";", quotechar="|")
+
+    try:
+        data = list(spamreader)
+        lastRow = data[-1]
+        timestamp = lastRow[0]
+        kwh = lastRow[1]
+    except:
+        print("Error reading file")
+
+    f.close()
 
     return timestamp, kwh
 
 
 def writeToFile(timestamp, kwh):
     
-    global fileName
+    fileName = getFileName()
     
     with open(fileName,"a") as f:
         spamwriter = csv.writer(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
@@ -66,16 +70,25 @@ def writeToFile(timestamp, kwh):
 
 def addToQueue(timestamp, kwh):
 
-    with open("queue.csv","a") as f:
-            spamwriter = csv.writer(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow([timestamp, kwh])
+    with open("./data/queue.csv","a") as f:
+        spamwriter = csv.writer(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow([timestamp, kwh])
     
 
 def getFromQueue():
     data = []
     
-    with open("queue.csv","r") as f:
+    try:
+        f = open("./data/queue.csv","r")
         spamreaderspamwriter = csv.reader(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
         data = list(spamreader)
+        f.close
+    except IOError:
+        print("There is no queue file")
     
     return data
+
+
+def getFileName():
+    fileName = "./data/" + datetime.today().strftime("%Y%m%d") + ".csv"
+    return fileName

@@ -4,11 +4,14 @@ from time import sleep
 
 def main():
     
+    config = json.load(open("config.json"))
+    fs = config["sensor"]["fs"]
+    
     SPL.configurePi()
 
     while(1):
         
-        sleep(60)
+        sleep(fs)
         timestamp, kwh = DAL.readFromFile()
         result = DAL.sendData(timestamp, kwh)
         try:
