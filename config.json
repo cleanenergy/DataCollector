@@ -1,0 +1,11 @@
+{
+  "site":{
+    "url":"http://clean.eco.br/medicao/lancar/"
+  },
+  "sensor":{
+    "fs":60
+  },
+  "client":{
+    "ug":1
+  }
+}
