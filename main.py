@@ -33,6 +33,9 @@ def main():
         
         sleep(fs)
 
+        DAL.printLog("\n\n\n---------------------------\nInitializing a sending routine...\n")
+        print("\n\n\n---------------------------\nInitializing a sending routine...\n")
+
         # Get the last measure
         wh = DAL.getMeasure()
 
@@ -44,6 +47,9 @@ def main():
 
         # Try send unsent data from the queue
         DAL.resendQueue()
+
+        DAL.printLog("Finished a sending routine.\n\n\nWaiting for the next time...")
+        print("Finished a sending routine.\n\n\nWaiting for the next time...")
     
 if __name__ == "__main__":
     main()
