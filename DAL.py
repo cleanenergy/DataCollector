@@ -198,8 +198,7 @@ def printLog(message):
     date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " :"
 
     with open(fileName,"a") as f:
-        spamwriter = csv.writer(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
-        spamwriter.writerow([date, message])
+        f.write(date + message)
 
 
 
