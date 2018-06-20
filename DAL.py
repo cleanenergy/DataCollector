@@ -34,8 +34,8 @@ def sendData(timestamp, value):
 
     # Make a log info about the data will be send
     data = {'ug':ug, 'data_hora':timestamp, 'medida':value}
-    print(str(data) + " | Sending...")
-    printLog(str(data) + " | Sending...")
+    print("Data to send:\n" + str(data) + "\n Sending...")
+    printLog("Data to send:\n" + str(data) + "\n Sending...")
     
     # Try post the data
     try:
@@ -202,7 +202,7 @@ def getLogFileName(daysBefore=0):
 def printLog(message):
 
     fileName = getLogFileName()
-    
+
     date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " :"
 
     with open(fileName,"a") as f:
