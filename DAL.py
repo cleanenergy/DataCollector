@@ -160,7 +160,7 @@ def getFromQueue():
         print("Trying to retrieve the unsent data queue...")
         printLog("Trying to retrieve the unsent data queue...")
         f = open("./data/queue.csv","r")
-        spamreaderspamwriter = csv.reader(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        spamreader = csv.reader(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
         data = list(spamreader)
         f.close()
         print("Queue of unsent data retrieved")
