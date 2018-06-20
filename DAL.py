@@ -174,6 +174,8 @@ def getFromQueue():
         printLog("Starting a new queue...")
         f = open("./data/queue.csv","w")
         f.close()
+        print("New queue of unsent data started")
+        printLog("New queue of unsent data started")
     except IOError:
         print("Error starting a new queue! " + IOError)
         printLog("Error starting a new queue!" + IOError)
