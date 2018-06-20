@@ -1,15 +1,18 @@
 import DAL
 import SPL
+import json
 from time import sleep
 
 def main():
     
-    config = json.load(open("config.json"))
-    fs = config["sensor"]["fs"]
-    
     SPL.configurePi()
 
     while(1):
+        try:
+            config = json.load(open("config.json"))
+            fs = config["sensor"]["fs"]
+        except:
+            print("Error reading configurations")
         
         sleep(fs)
         timestamp, kwh = DAL.readFromFile()

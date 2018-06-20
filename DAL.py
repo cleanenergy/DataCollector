@@ -2,7 +2,7 @@ import requests
 import json
 import ast
 import csv
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 def sendData(timestamp, value):
@@ -42,7 +42,25 @@ def readFromFile():
     try:
         f = open(fileName, 'r')
     except IOError:
+        fileName = getFileName(delta=1)
+        f = open(fileName, 'r')
+        spamreader = csv.reader(f, delimiter=";", quotechar="|")
+        try:
+            data = list(spamreader)
+            lastRow = data[-1]
+            timestamp = lastRow[0]
+            kwh = lastRow[1]
+        except:
+            print("Error reading file")
+
+        f.close()
+        
+        fileName = getFileName()
         f = open(fileName, 'w')
+        f.close
+        writeToFile(timestamp, kwh)
+        fileName = getFileName()
+        f = open(fileName, 'r')
 
     spamreader = csv.reader(f, delimiter=";", quotechar="|")
 
@@ -89,6 +107,7 @@ def getFromQueue():
     return data
 
 
-def getFileName():
-    fileName = "./data/" + datetime.today().strftime("%Y%m%d") + ".csv"
+def getFileName(delta=0):
+    date = datetime.today() - timedelta(days=delta)
+    fileName = "./data/" + date.strftime("%Y%m%d") + ".csv"
     return fileName

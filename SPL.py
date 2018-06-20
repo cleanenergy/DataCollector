@@ -1,12 +1,12 @@
 import RPi.GPIO as GPIO
 from datetime import datetime
 from datetime import timedelta
+from time import sleep
 import DAL
 
 
-kwh = 0
+kwh = 0.0
 timestamp = ""
-timeRef = datetime.now()
 pulseDuration = timedelta(seconds=0.5)
 timestamp, kwh = DAL.readFromFile()
 
@@ -20,16 +20,15 @@ def configurePi():
 def recordPulse(channel):
     
     global kwh
-    global timeRef
     global pulseDuration
     global timestamp
     
     timeNow = datetime.now()
+    sleep(0.050)
     
-    if (timeNow - timeRef) >= pulseDuration:
+    if GPIO.input(26):
         
-        kwh = kwh + 0.005*1000
+        kwh = float(kwh) + 0.5
         timestamp = timeNow.strftime("%Y-%m-%d %H:%M:%S")
-        timeRef = timeNow
         
-        DAL.writeToFile(timestamp, kwh)
+        DAL.writeToFile(timestamp, str(kwh))
