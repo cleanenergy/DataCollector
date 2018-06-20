@@ -191,14 +191,22 @@ def getFileName(daysBefore=0):
     fileName = "./data/" + date.strftime("%Y%m%d") + ".csv"
     return fileName
 
+def getLogFileName(daysBefore=0):
+    # Get a run log file name.
+    #       - daysBefore: number os days before today
+
+    date = datetime.today() - timedelta(days=daysBefore)
+    fileName = "./data/" + date.strftime("%Y%m%d") + ".runlog"
+    return fileName
+
 def printLog(message):
 
-    fileName = "./data/runlog.csv"
-
+    fileName = getLogFileName()
+    
     date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " :"
 
     with open(fileName,"a") as f:
-        f.write(date + message)
+        f.write(date + message + "\n")
 
 
 
