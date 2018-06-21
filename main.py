@@ -62,6 +62,7 @@ def main():
 
         # Restart a window message display
         message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!")
+        root.update()
     
 if __name__ == "__main__":
     main()
