@@ -364,3 +364,873 @@ Initializing a sending routine...
 
 
 Waiting for the next time...
+2018-06-21 01:32:39 :Initializing data acumulator...
+2018-06-21 01:32:39 :Initiated!
+2018-06-21 01:32:43 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:32:43 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:32:43', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:32:44 :Uploaded data!
+2018-06-21 01:32:44 :Status: OK
+2018-06-21 01:32:44 :Trying to retrieve the unsent data queue...
+2018-06-21 01:32:44 :Queue of unsent data retrieved
+2018-06-21 01:32:44 :Starting a new queue...
+2018-06-21 01:32:44 :New queue of unsent data started
+2018-06-21 01:32:44 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:32:47 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:32:47 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:32:47', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:32:47 :Uploaded data!
+2018-06-21 01:32:47 :Status: OK
+2018-06-21 01:32:47 :Trying to retrieve the unsent data queue...
+2018-06-21 01:32:47 :Queue of unsent data retrieved
+2018-06-21 01:32:47 :Starting a new queue...
+2018-06-21 01:32:47 :New queue of unsent data started
+2018-06-21 01:32:47 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:32:51 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:32:51 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:32:51', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:32:51 :Uploaded data!
+2018-06-21 01:32:51 :Status: OK
+2018-06-21 01:32:51 :Trying to retrieve the unsent data queue...
+2018-06-21 01:32:51 :Queue of unsent data retrieved
+2018-06-21 01:32:51 :Starting a new queue...
+2018-06-21 01:32:51 :New queue of unsent data started
+2018-06-21 01:32:51 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:32:54 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:32:54 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:32:54', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:32:55 :Uploaded data!
+2018-06-21 01:32:55 :Status: OK
+2018-06-21 01:32:55 :Trying to retrieve the unsent data queue...
+2018-06-21 01:32:55 :Queue of unsent data retrieved
+2018-06-21 01:32:55 :Starting a new queue...
+2018-06-21 01:32:55 :New queue of unsent data started
+2018-06-21 01:32:55 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:32:58 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:32:58 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:32:58', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:32:58 :Uploaded data!
+2018-06-21 01:32:58 :Status: OK
+2018-06-21 01:32:58 :Trying to retrieve the unsent data queue...
+2018-06-21 01:32:58 :Queue of unsent data retrieved
+2018-06-21 01:32:58 :Starting a new queue...
+2018-06-21 01:32:58 :New queue of unsent data started
+2018-06-21 01:32:58 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:02 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:02 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:02', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:02 :Uploaded data!
+2018-06-21 01:33:02 :Status: OK
+2018-06-21 01:33:02 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:02 :Queue of unsent data retrieved
+2018-06-21 01:33:02 :Starting a new queue...
+2018-06-21 01:33:02 :New queue of unsent data started
+2018-06-21 01:33:02 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:05 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:05 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:05', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:06 :Uploaded data!
+2018-06-21 01:33:06 :Status: OK
+2018-06-21 01:33:06 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:06 :Queue of unsent data retrieved
+2018-06-21 01:33:06 :Starting a new queue...
+2018-06-21 01:33:06 :New queue of unsent data started
+2018-06-21 01:33:06 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:09 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:09 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:09', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:09 :Uploaded data!
+2018-06-21 01:33:09 :Status: OK
+2018-06-21 01:33:09 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:09 :Queue of unsent data retrieved
+2018-06-21 01:33:09 :Starting a new queue...
+2018-06-21 01:33:09 :New queue of unsent data started
+2018-06-21 01:33:09 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:13 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:13 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:13', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:13 :Uploaded data!
+2018-06-21 01:33:13 :Status: OK
+2018-06-21 01:33:13 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:13 :Queue of unsent data retrieved
+2018-06-21 01:33:13 :Starting a new queue...
+2018-06-21 01:33:13 :New queue of unsent data started
+2018-06-21 01:33:13 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:16 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:16 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:16', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:17 :Uploaded data!
+2018-06-21 01:33:17 :Status: OK
+2018-06-21 01:33:17 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:17 :Queue of unsent data retrieved
+2018-06-21 01:33:17 :Starting a new queue...
+2018-06-21 01:33:17 :New queue of unsent data started
+2018-06-21 01:33:17 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:20 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:20 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:20', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:20 :Uploaded data!
+2018-06-21 01:33:20 :Status: OK
+2018-06-21 01:33:20 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:20 :Queue of unsent data retrieved
+2018-06-21 01:33:20 :Starting a new queue...
+2018-06-21 01:33:20 :New queue of unsent data started
+2018-06-21 01:33:20 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:24 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:24 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:24', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:24 :Uploaded data!
+2018-06-21 01:33:24 :Status: OK
+2018-06-21 01:33:24 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:24 :Queue of unsent data retrieved
+2018-06-21 01:33:24 :Starting a new queue...
+2018-06-21 01:33:24 :New queue of unsent data started
+2018-06-21 01:33:24 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:27 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:27 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:27', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:43 :Initializing data acumulator...
+2018-06-21 01:33:43 :Initiated!
+2018-06-21 01:33:47 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:47 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:47', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:47 :Uploaded data!
+2018-06-21 01:33:47 :Status: OK
+2018-06-21 01:33:47 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:47 :Queue of unsent data retrieved
+2018-06-21 01:33:47 :Starting a new queue...
+2018-06-21 01:33:47 :New queue of unsent data started
+2018-06-21 01:33:47 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:50 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:50 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:50', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:51 :Uploaded data!
+2018-06-21 01:33:51 :Status: OK
+2018-06-21 01:33:51 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:51 :Queue of unsent data retrieved
+2018-06-21 01:33:51 :Starting a new queue...
+2018-06-21 01:33:51 :New queue of unsent data started
+2018-06-21 01:33:51 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:54 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:54 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:54', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:54 :Uploaded data!
+2018-06-21 01:33:54 :Status: OK
+2018-06-21 01:33:54 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:54 :Queue of unsent data retrieved
+2018-06-21 01:33:54 :Starting a new queue...
+2018-06-21 01:33:54 :New queue of unsent data started
+2018-06-21 01:33:54 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:33:57 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:33:57 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:33:57', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:33:58 :Uploaded data!
+2018-06-21 01:33:58 :Status: OK
+2018-06-21 01:33:58 :Trying to retrieve the unsent data queue...
+2018-06-21 01:33:58 :Queue of unsent data retrieved
+2018-06-21 01:33:58 :Starting a new queue...
+2018-06-21 01:33:58 :New queue of unsent data started
+2018-06-21 01:33:58 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:01 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:01 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:01', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:01 :Uploaded data!
+2018-06-21 01:34:01 :Status: OK
+2018-06-21 01:34:01 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:01 :Queue of unsent data retrieved
+2018-06-21 01:34:01 :Starting a new queue...
+2018-06-21 01:34:01 :New queue of unsent data started
+2018-06-21 01:34:01 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:11 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:11 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:11', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:12 :Uploaded data!
+2018-06-21 01:34:12 :Status: OK
+2018-06-21 01:34:12 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:12 :Queue of unsent data retrieved
+2018-06-21 01:34:12 :Starting a new queue...
+2018-06-21 01:34:12 :New queue of unsent data started
+2018-06-21 01:34:12 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:15 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:15 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:15', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:15 :Uploaded data!
+2018-06-21 01:34:15 :Status: OK
+2018-06-21 01:34:15 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:15 :Queue of unsent data retrieved
+2018-06-21 01:34:15 :Starting a new queue...
+2018-06-21 01:34:15 :New queue of unsent data started
+2018-06-21 01:34:15 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:19 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:19 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:19', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:19 :Uploaded data!
+2018-06-21 01:34:19 :Status: OK
+2018-06-21 01:34:19 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:19 :Queue of unsent data retrieved
+2018-06-21 01:34:19 :Starting a new queue...
+2018-06-21 01:34:19 :New queue of unsent data started
+2018-06-21 01:34:19 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:22 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:22 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:22', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:23 :Uploaded data!
+2018-06-21 01:34:23 :Status: OK
+2018-06-21 01:34:23 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:23 :Queue of unsent data retrieved
+2018-06-21 01:34:23 :Starting a new queue...
+2018-06-21 01:34:23 :New queue of unsent data started
+2018-06-21 01:34:23 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:26 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:26 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:26', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:26 :Uploaded data!
+2018-06-21 01:34:26 :Status: OK
+2018-06-21 01:34:26 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:26 :Queue of unsent data retrieved
+2018-06-21 01:34:26 :Starting a new queue...
+2018-06-21 01:34:26 :New queue of unsent data started
+2018-06-21 01:34:26 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:30 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:30 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:30', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:30 :Uploaded data!
+2018-06-21 01:34:30 :Status: OK
+2018-06-21 01:34:30 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:30 :Queue of unsent data retrieved
+2018-06-21 01:34:30 :Starting a new queue...
+2018-06-21 01:34:30 :New queue of unsent data started
+2018-06-21 01:34:30 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:33 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:33 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:33', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:34 :Uploaded data!
+2018-06-21 01:34:34 :Status: OK
+2018-06-21 01:34:34 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:34 :Queue of unsent data retrieved
+2018-06-21 01:34:34 :Starting a new queue...
+2018-06-21 01:34:34 :New queue of unsent data started
+2018-06-21 01:34:34 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:37 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:37 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:37', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:37 :Uploaded data!
+2018-06-21 01:34:37 :Status: OK
+2018-06-21 01:34:37 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:37 :Queue of unsent data retrieved
+2018-06-21 01:34:37 :Starting a new queue...
+2018-06-21 01:34:37 :New queue of unsent data started
+2018-06-21 01:34:37 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:41 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:41 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:41', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:41 :Uploaded data!
+2018-06-21 01:34:41 :Status: OK
+2018-06-21 01:34:41 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:41 :Queue of unsent data retrieved
+2018-06-21 01:34:41 :Starting a new queue...
+2018-06-21 01:34:41 :New queue of unsent data started
+2018-06-21 01:34:41 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:44 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:44 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:44', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:45 :Uploaded data!
+2018-06-21 01:34:45 :Status: OK
+2018-06-21 01:34:45 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:45 :Queue of unsent data retrieved
+2018-06-21 01:34:45 :Starting a new queue...
+2018-06-21 01:34:45 :New queue of unsent data started
+2018-06-21 01:34:45 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:48 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:48 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:48', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:49 :Uploaded data!
+2018-06-21 01:34:49 :Status: OK
+2018-06-21 01:34:49 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:49 :Queue of unsent data retrieved
+2018-06-21 01:34:49 :Starting a new queue...
+2018-06-21 01:34:49 :New queue of unsent data started
+2018-06-21 01:34:49 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:52 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:52 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:52', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:52 :Uploaded data!
+2018-06-21 01:34:52 :Status: OK
+2018-06-21 01:34:52 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:52 :Queue of unsent data retrieved
+2018-06-21 01:34:52 :Starting a new queue...
+2018-06-21 01:34:52 :New queue of unsent data started
+2018-06-21 01:34:52 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:55 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:55 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:55', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:56 :Uploaded data!
+2018-06-21 01:34:56 :Status: OK
+2018-06-21 01:34:56 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:56 :Queue of unsent data retrieved
+2018-06-21 01:34:56 :Starting a new queue...
+2018-06-21 01:34:56 :New queue of unsent data started
+2018-06-21 01:34:56 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:34:59 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:34:59 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:34:59', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:34:59 :Uploaded data!
+2018-06-21 01:34:59 :Status: OK
+2018-06-21 01:34:59 :Trying to retrieve the unsent data queue...
+2018-06-21 01:34:59 :Queue of unsent data retrieved
+2018-06-21 01:34:59 :Starting a new queue...
+2018-06-21 01:34:59 :New queue of unsent data started
+2018-06-21 01:34:59 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:35:03 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:35:03 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:35:03', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:35:03 :Uploaded data!
+2018-06-21 01:35:03 :Status: OK
+2018-06-21 01:35:03 :Trying to retrieve the unsent data queue...
+2018-06-21 01:35:03 :Queue of unsent data retrieved
+2018-06-21 01:35:03 :Starting a new queue...
+2018-06-21 01:35:03 :New queue of unsent data started
+2018-06-21 01:35:03 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:35:06 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:35:06 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:35:06', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:35:07 :Uploaded data!
+2018-06-21 01:35:07 :Status: OK
+2018-06-21 01:35:07 :Trying to retrieve the unsent data queue...
+2018-06-21 01:35:07 :Queue of unsent data retrieved
+2018-06-21 01:35:07 :Starting a new queue...
+2018-06-21 01:35:07 :New queue of unsent data started
+2018-06-21 01:35:07 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:27 :Initializing data acumulator...
+2018-06-21 01:37:27 :Initiated!
+2018-06-21 01:37:30 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:30 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:30', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:31 :Uploaded data!
+2018-06-21 01:37:31 :Status: OK
+2018-06-21 01:37:31 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:31 :Queue of unsent data retrieved
+2018-06-21 01:37:31 :Starting a new queue...
+2018-06-21 01:37:31 :New queue of unsent data started
+2018-06-21 01:37:31 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:34 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:34 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:34', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:35 :Uploaded data!
+2018-06-21 01:37:35 :Status: OK
+2018-06-21 01:37:35 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:35 :Queue of unsent data retrieved
+2018-06-21 01:37:35 :Starting a new queue...
+2018-06-21 01:37:35 :New queue of unsent data started
+2018-06-21 01:37:35 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:38 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:38 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:38', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:38 :Uploaded data!
+2018-06-21 01:37:38 :Status: OK
+2018-06-21 01:37:38 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:38 :Queue of unsent data retrieved
+2018-06-21 01:37:38 :Starting a new queue...
+2018-06-21 01:37:38 :New queue of unsent data started
+2018-06-21 01:37:38 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:41 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:41 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:41', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:42 :Uploaded data!
+2018-06-21 01:37:42 :Status: OK
+2018-06-21 01:37:42 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:42 :Queue of unsent data retrieved
+2018-06-21 01:37:42 :Starting a new queue...
+2018-06-21 01:37:42 :New queue of unsent data started
+2018-06-21 01:37:42 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:45 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:45 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:45', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:53 :Uploaded data!
+2018-06-21 01:37:53 :Status: OK
+2018-06-21 01:37:53 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:53 :Queue of unsent data retrieved
+2018-06-21 01:37:53 :Starting a new queue...
+2018-06-21 01:37:53 :New queue of unsent data started
+2018-06-21 01:37:53 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:37:56 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:37:56 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:37:56', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:37:57 :Uploaded data!
+2018-06-21 01:37:57 :Status: OK
+2018-06-21 01:37:57 :Trying to retrieve the unsent data queue...
+2018-06-21 01:37:57 :Queue of unsent data retrieved
+2018-06-21 01:37:57 :Starting a new queue...
+2018-06-21 01:37:57 :New queue of unsent data started
+2018-06-21 01:37:57 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:00 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:00 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:00', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:00 :Uploaded data!
+2018-06-21 01:38:00 :Status: OK
+2018-06-21 01:38:00 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:00 :Queue of unsent data retrieved
+2018-06-21 01:38:00 :Starting a new queue...
+2018-06-21 01:38:00 :New queue of unsent data started
+2018-06-21 01:38:00 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:04 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:04 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:04', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:04 :Uploaded data!
+2018-06-21 01:38:04 :Status: OK
+2018-06-21 01:38:04 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:04 :Queue of unsent data retrieved
+2018-06-21 01:38:04 :Starting a new queue...
+2018-06-21 01:38:04 :New queue of unsent data started
+2018-06-21 01:38:04 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:07 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:07 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:07', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:08 :Uploaded data!
+2018-06-21 01:38:08 :Status: OK
+2018-06-21 01:38:08 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:08 :Queue of unsent data retrieved
+2018-06-21 01:38:08 :Starting a new queue...
+2018-06-21 01:38:08 :New queue of unsent data started
+2018-06-21 01:38:08 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:11 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:11 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:11', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:11 :Uploaded data!
+2018-06-21 01:38:11 :Status: OK
+2018-06-21 01:38:11 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:11 :Queue of unsent data retrieved
+2018-06-21 01:38:11 :Starting a new queue...
+2018-06-21 01:38:11 :New queue of unsent data started
+2018-06-21 01:38:11 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:14 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:14 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:14', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:15 :Uploaded data!
+2018-06-21 01:38:15 :Status: OK
+2018-06-21 01:38:15 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:15 :Queue of unsent data retrieved
+2018-06-21 01:38:15 :Starting a new queue...
+2018-06-21 01:38:15 :New queue of unsent data started
+2018-06-21 01:38:15 :Finished a sending routine.
+
+
+Waiting for the next time...
+2018-06-21 01:38:45 :
+
+
+---------------------------
+Initializing a sending routine...
+
+2018-06-21 01:38:45 :Data to send:
+{'ug': 2, 'data_hora': '2018-06-21 01:38:45', 'medida': '11984.5'}
+ Sending...
+2018-06-21 01:38:46 :Uploaded data!
+2018-06-21 01:38:46 :Status: OK
+2018-06-21 01:38:46 :Trying to retrieve the unsent data queue...
+2018-06-21 01:38:46 :Queue of unsent data retrieved
+2018-06-21 01:38:46 :Starting a new queue...
+2018-06-21 01:38:46 :New queue of unsent data started
+2018-06-21 01:38:46 :Finished a sending routine.
+
+
+Waiting for the next time...
