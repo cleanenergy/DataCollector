@@ -3,5 +3,3 @@
 config.json 
 *.pyc
 *.runlog
-
-*.runlog
