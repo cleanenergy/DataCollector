@@ -30,6 +30,7 @@ def main():
     root = Tk()
     root.title("Running monitoring system...")
     message = StringVar()
+    message.set("Initializing...")
     Label(root, textvariable=message, width = 50, height = 10).pack()
     root.update()
 
