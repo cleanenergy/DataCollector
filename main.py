@@ -62,7 +62,7 @@ def main():
         print("Finished a sending routine.\n\n\nWaiting for the next time...")
 
         # Restart a window message display
-        message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!")
+        message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!\n The acumulated energy generate is: " + wh)
         root.update()
     
 if __name__ == "__main__":
