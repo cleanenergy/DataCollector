@@ -30,7 +30,11 @@ timestamp = ""
 # Default: 50 ms
 debouncingTime = 0.05
 
+print("Initializing data acumulator...")
+DAL.printLog("Initializing data acumulator...")
 timestamp, wh = DAL.readFromFile()
+print("Initiated!")
+DAL.printLog("Initiated!")
 
 
 def configurePi():
