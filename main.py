@@ -19,10 +19,15 @@ import SPL
 import json
 from time import sleep
 from datetime import datetime
+from tkinter import *
 
 def main():
     
+    # Configure a Raspberry I/O
     SPL.configurePi()
+
+    # Create a GUI info system 
+    root = Tk()
 
     while(1):
         try:
@@ -50,6 +55,16 @@ def main():
 
         DAL.printLog("Finished a sending routine.\n\n\nWaiting for the next time...")
         print("Finished a sending routine.\n\n\nWaiting for the next time...")
+
+        # Restart a window message display
+        try:
+            root.destroy()
+        except:
+            pass
+
+        # Show a window message to indicate the running status
+        root = Tk()
+        Label(root, text="The system is running...\n Last update: " + timestamp + "\n Everything working fine!")
     
 if __name__ == "__main__":
     main()
