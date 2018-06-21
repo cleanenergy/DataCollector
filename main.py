@@ -64,7 +64,7 @@ def main():
 
         # Show a window message to indicate the running status
         root = Tk()
-        Label(root, text="The system is running...\n Last update: " + timestamp + "\n Everything working fine!")
+        Label(root, text="The system is running...\n Last update: " + timestamp + "\n Everything working fine!").pack()
     
 if __name__ == "__main__":
     main()
