@@ -65,12 +65,14 @@ def main():
         try:
             root.destroy()
         except:
-            root = Tk()
-            root.title("Running monitoring system...")
-            message = StringVar()
-            message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!\n\n" + str(float(wh)/1000) + " kWh\n is the acumulated energy generated")
-            Label(root, textvariable=message, width = 50, height = 10).pack()
-            root.update()
+            pass
+
+        root = Tk()
+        root.title("Running monitoring system...")
+        message = StringVar()
+        message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!\n\n" + str(float(wh)/1000) + " kWh\n is the acumulated energy generated")
+        Label(root, textvariable=message, width = 50, height = 10).pack()
+        root.update()
     
 if __name__ == "__main__":
     main()
