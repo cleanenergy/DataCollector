@@ -28,6 +28,10 @@ def main():
 
     # Create a GUI info system 
     root = Tk()
+    root.title("Running monitoring system...")
+    message = StringVar()
+    Label(root, textvariable=message, width = 50, height = 10).pack()
+    root.update()
 
     while(1):
         try:
@@ -57,14 +61,7 @@ def main():
         print("Finished a sending routine.\n\n\nWaiting for the next time...")
 
         # Restart a window message display
-        try:
-            root.destroy()
-        except:
-            pass
-
-        # Show a window message to indicate the running status
-        root = Tk()
-        Label(root, text="The system is running...\n Last update: " + timestamp + "\n Everything working fine!").pack()
+        message.set("The system is running...\n Last update: " + timestamp + "\n Everything working fine!")
     
 if __name__ == "__main__":
     main()
