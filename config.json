@@ -3,9 +3,9 @@
     "url":"http://clean.eco.br/medicao/lancar/"
   },
   "sensor":{
-    "fs":300
+    "fs":3
   },
   "client":{
-    "ug":1
+    "ug":2
   }
 }
