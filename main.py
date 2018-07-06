@@ -47,7 +47,7 @@ def main():
         print("\n\n\n---------------------------\nInitializing a sending routine...\n")
 
         # Get the last measure
-        wh = DAL.getMeasure()
+        wh = DAL.getLastMeasure()
 
         # Get the now time
         timestamp = datetime.now().strftime(DAL.getDateFormat())
