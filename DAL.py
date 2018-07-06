@@ -233,7 +233,7 @@ def getLastMeasure():
         lastRow = data[-1]
         timestamp = lastRow[0]
         wh = lastRow[1]
-        print("Last Measure recovered.")
+        print("Last Measure recovered. -- " + timestamp + " : " + wh)
         printLog("Last Measure recovered.")
         f.close()
     except:
