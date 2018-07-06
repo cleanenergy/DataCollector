@@ -233,6 +233,8 @@ def getLastMeasure():
         lastRow = data[-1]
         timestamp = lastRow[0]
         wh = lastRow[1]
+        print("Last Measure recovered.")
+        printLog("Last Measure recovered.")
     except:
         print("Can't read the last measure file. Zero was returned.")
         printLog("Can't read the last measure file. Zero was returned.")
