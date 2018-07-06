@@ -112,13 +112,13 @@ def readFromFile():
             writeToFile(timestamp, wh)
             print("Today's log measure does not exist. Yesterday's last measure used.")
             printLog("Today's log measure does not exist. Yesterday's last measure used.")
+            f.close()
         # If yesterday log archive does not exist, 
         # return now as timestamp and 0 as measure
         except:
             print("Yesterday log measure does not exist. Zero was returned")
             printLog("Yesterday log measure does not exist. Zero was returned")
             writeToFile(timestamp, wh)
-        f.close()
 
     return timestamp, wh
 
@@ -235,11 +235,10 @@ def getLastMeasure():
         wh = lastRow[1]
         print("Last Measure recovered.")
         printLog("Last Measure recovered.")
+        f.close()
     except:
         print("Can't read the last measure file. Zero was returned.")
         printLog("Can't read the last measure file. Zero was returned.")
-
-    f.close()
 
     return wh
 
