@@ -2,4 +2,4 @@
 [[ `pgrep ${0##*/} | wc -l` > 2 ]] && exit 1
 
 cd /home/pi/dev/DataCollector/
-python3 main.py
+python3 main.py -c "DataCollector"
