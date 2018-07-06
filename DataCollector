@@ -2,4 +2,6 @@
 [[ `pgrep ${0##*/} | wc -l` > 2 ]] && exit 1
 
 cd /home/pi/dev/DataCollector/
+kill $(pgrep -f main.py)
+
 python3 main.py
