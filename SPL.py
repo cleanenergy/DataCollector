@@ -32,7 +32,7 @@ debouncingTime = 0.05
 
 print("Initializing data acumulator...")
 DAL.printLog("Initializing data acumulator...")
-timestamp, wh = DAL.readFromFile()
+wh = DAL.getLastMeasure()
 print("Initiated!")
 DAL.printLog("Initiated!")
 
@@ -64,5 +64,6 @@ def recordPulse(channel):
         
         wh = float(wh) + 0.5
         timestamp = timeNow.strftime(DAL.getDateFormat())
-        
+
         DAL.writeToFile(timestamp, str(wh))
+        DAL.writeToLastMeasureFile(timestamp,str(wh))

@@ -208,6 +208,39 @@ def printLog(message):
     with open(fileName,"a") as f:
         f.write(date + message + "\n")
 
+def writeToLastMeasureFile(timestamp, wh):
+    # Write in a file called last.measure the last measure computed
+    #           - timestamp: date-hour of measurement
+    #           - wh: accumulated produced energy value 
+
+    fileName = "./data/.last.measure"
+
+    with open(fileName,"w") as f:
+        spamwriter = csv.writer(f, delimiter=";", quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow([timestamp, wh])
+        print("Last measurement was updated.")
+        printLog("Last measurement was updated.")
+
+def getLastMeasure():
+    # Get in a file called last.measure the last measure computed
+
+    fileName = "./data/.last.measure"  
+    wh = 0
+    try:
+        f = open(fileName, 'r')
+        spamreader = csv.reader(f, delimiter=";", quotechar="|")
+        data = list(spamreader)
+        lastRow = data[-1]
+        timestamp = lastRow[0]
+        wh = lastRow[1]
+    except:
+        print("Can't read the last measure file. Zero was returned.")
+        printLog("Can't read the last measure file. Zero was returned.")
+
+    f.close()
+
+    return wh
+
 
 
 
