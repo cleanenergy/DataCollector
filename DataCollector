@@ -15,10 +15,12 @@
 #
 ################################################################
 
-
+# Make this script a singleton
 [[ `pgrep ${0##*/} | wc -l` > 2 ]] && exit 1
 
 cd $HOME/dev/DataCollector/
+
+# Make the python script a singleton process killing all running scripts
 kill $(pgrep -f "python3 main.py")
 python3 main.py
 kill $(pgrep -f "DataCollector")

@@ -13,6 +13,8 @@
 # This code setup a autostart to DataCollector system after the login
 #
 ################################################################
+
+
 if grep -q DataCollector "$HOME/.config/lxsession/LXDE-pi/autostart"
 	then exit 1
 fi
