@@ -1,7 +1,24 @@
 #! /bin/bash
+
+#coding: utf-8
+################################################################
+# CLEAN ENERGY SOLUTIONS - 2018
+#
+# DataCollector
+#
+# Create by: Emílio Palote Santos
+#
+# Repository: https://github.com/cleanenergy/DataCollector
+#
+# This code starts a python main code and make sure only one instance
+# of the DataCollector is running. (Singleton Design Pattern)
+#
+################################################################
+
+
 [[ `pgrep ${0##*/} | wc -l` > 2 ]] && exit 1
 
-cd /home/pi/dev/DataCollector/
+cd $HOME/dev/DataCollector/
 kill $(pgrep -f "python3 main.py")
 python3 main.py
 kill $(pgrep -f "DataCollector")

@@ -1,5 +1,19 @@
 #! /bin/bash
+
+#coding: utf-8
+################################################################
+# CLEAN ENERGY SOLUTIONS - 2018
+#
+# Setup
+#
+# Create by: Emílio Palote Santos
+#
+# Repository: https://github.com/cleanenergy/DataCollector
+#
+# This code setup a autostart to DataCollector system after the login
+#
+################################################################
 if grep -q DataCollector "$HOME/.config/lxsession/LXDE-pi/autostart"
 	then exit 1
 fi
-echo "@/home/pi/dev/DataCollector/DataCollector" >> $HOME/.config/lxsession/LXDE-pi/autostart
+echo "$HOME/dev/DataCollector/DataCollector" >> $HOME/.config/lxsession/LXDE-pi/autostart
