@@ -1,0 +1,5 @@
+#! /bin/bash
+if grep -q DataCollector "$HOME/.config/lxsession/LXDE-pi/autostart"
+	then exit 1
+fi
+echo "@/home/pi/dev/DataCollector/DataCollector" >> $HOME/.config/lxsession/LXDE-pi/autostart
