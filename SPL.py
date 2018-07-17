@@ -27,8 +27,8 @@ timestamp = ""
 #       Min duration = 100ms
 #       Máx duration = 120ms
 # The program waits debouncingTime for debouncing
-# Default: 50 ms
-debouncingTime = 0.05
+# Default: 10 ms
+debouncingTime = 0.010
 
 print("Initializing data acumulator...")
 DAL.printLog("Initializing data acumulator...")
