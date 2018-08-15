@@ -27,6 +27,7 @@ then
 	echo "@midnight $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
 	crontab $HOME/dev/DataCollector/tempcron
 	rm $HOME/dev/DataCollector/tempcron
+	exit 1
 
 fi
 # If not
