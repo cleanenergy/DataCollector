@@ -37,7 +37,7 @@ if grep -q dev/DataCollector/DataCollector "$HOME/dev/DataCollector/usercron"
 then
 	:
 else
-	echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/usercron
+	echo "* * * * * export DISPLAY=:0; $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/usercron
 	crontab $HOME/dev/DataCollector/usercron
 fi
 
