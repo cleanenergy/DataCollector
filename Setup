@@ -19,7 +19,7 @@ if grep -q dev/DataCollector/DataCollector "$HOME/.config/lxsession/LXDE-pi/auto
 then
 	crontab -l > $HOME/dev/DataCollector/tempcron
 
-	if grep -q dev/DataCollector/tempcron "$HOME/dev/DataCollector/cronrun"
+	if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/tempcron"
 	then
 		rm $HOME/dev/DataCollector/tempcron
 		exit 1
