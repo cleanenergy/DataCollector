@@ -15,5 +15,5 @@
 ################################################################
 
 
-find $HOME/dev/DataCollector/data -atime +60 -delete 
+find $HOME/dev/DataCollector/data -ctime +60 -delete 
 reboot
