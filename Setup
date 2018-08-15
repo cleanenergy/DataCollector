@@ -14,31 +14,34 @@
 #
 ################################################################
 
-# Verify if exist old configurations 
+# Verify if exist old configurations for Auto Start
 if grep -q dev/DataCollector/DataCollector "$HOME/.config/lxsession/LXDE-pi/autostart"
 then
-	sudo crontab -l > $HOME/dev/DataCollector/tempcron
-
-	if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/tempcron"
-	then
-		rm $HOME/dev/DataCollector/tempcron
-		exit 1
-	fi
-	echo "* * * * * sudo $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
-	echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/tempcron
-	sudo crontab $HOME/dev/DataCollector/tempcron
-	rm $HOME/dev/DataCollector/tempcron
-	exit 1
-
+	:
+else
+	echo "@$HOME/dev/DataCollector/DataCollector" >> $HOME/.config/lxsession/LXDE-pi/autostart
 fi
-# If not
 
-# Adjust Crontab
-sudo crontab -l > $HOME/dev/DataCollector/tempcron
-echo "* * * * * sudo $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
-echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/tempcron
-sudo crontab $HOME/dev/DataCollector/tempcron
-rm $HOME/dev/DataCollector/tempcron
+# Verify if exist old configurations for Root Cron Config
+sudo crontab -l > $HOME/dev/DataCollector/rootcron
+if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/rootcron"
+then
+	:
+else
+	echo "@midnight sudo $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/rootcron
+	sudo crontab $HOME/dev/DataCollector/rootcron
+fi
+# Verify if exist old configurations for User Cron Config
+crontab -l > $HOME/dev/DataCollector/usercron
+if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/usercron"
+then
+	:
+else
+	echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/usercron
+	crontab $HOME/dev/DataCollector/usercron
+fi
 
-# Adjust 
-echo "@$HOME/dev/DataCollector/DataCollector" >> $HOME/.config/lxsession/LXDE-pi/autostart
+rm $HOME/dev/DataCollector/usercron
+rm $HOME/dev/DataCollector/rootcron
+
+exit 1
