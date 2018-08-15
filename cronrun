@@ -16,4 +16,4 @@
 
 
 find $HOME/dev/DataCollector/data -ctime +60 -delete 
-reboot
+sudo reboot

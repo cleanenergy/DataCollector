@@ -17,15 +17,16 @@
 # Verify if exist old configurations 
 if grep -q dev/DataCollector/DataCollector "$HOME/.config/lxsession/LXDE-pi/autostart"
 then
-	crontab -l > $HOME/dev/DataCollector/tempcron
+	sudo crontab -l > $HOME/dev/DataCollector/tempcron
 
 	if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/tempcron"
 	then
 		rm $HOME/dev/DataCollector/tempcron
 		exit 1
 	fi
-	echo "@midnight $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
-	crontab $HOME/dev/DataCollector/tempcron
+	echo "* * * * * sudo $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
+	echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/tempcron
+	sudo crontab $HOME/dev/DataCollector/tempcron
 	rm $HOME/dev/DataCollector/tempcron
 	exit 1
 
@@ -33,9 +34,10 @@ fi
 # If not
 
 # Adjust Crontab
-crontab -l > $HOME/dev/DataCollector/tempcron
-echo "@midnight $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
-crontab $HOME/dev/DataCollector/tempcron
+sudo crontab -l > $HOME/dev/DataCollector/tempcron
+echo "* * * * * sudo $HOME/dev/DataCollector/cronrun" >> $HOME/dev/DataCollector/tempcron
+echo "* * * * * $HOME/dev/DataCollector/DataCollector" >> $HOME/dev/DataCollector/tempcron
+sudo crontab $HOME/dev/DataCollector/tempcron
 rm $HOME/dev/DataCollector/tempcron
 
 # Adjust 
