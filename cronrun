@@ -1,0 +1,19 @@
+#! /bin/bash
+
+#coding: utf-8
+################################################################
+# CLEAN ENERGY SOLUTIONS - 2018
+#
+# cronrun
+#
+# Create by: Emílio Palote Santos
+#
+# Repository: https://github.com/cleanenergy/DataCollector
+#
+# This code delete all old data files and reboot the raspberry
+#
+################################################################
+
+
+find $HOME/dev/DataCollector/data -atime +60 -delete 
+reboot
