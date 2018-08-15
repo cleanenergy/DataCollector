@@ -33,7 +33,7 @@ else
 fi
 # Verify if exist old configurations for User Cron Config
 crontab -l > $HOME/dev/DataCollector/usercron
-if grep -q dev/DataCollector/cronrun "$HOME/dev/DataCollector/usercron"
+if grep -q dev/DataCollector/DataCollector "$HOME/dev/DataCollector/usercron"
 then
 	:
 else
