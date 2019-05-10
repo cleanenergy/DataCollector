@@ -27,9 +27,10 @@ def sendData(timestamp, value):
     
     result = ""
 
-    # Get URL and UG id informations in configurations 
+    # Get SERVER and CLIENT configurations 
     config = json.load(open("config.json"))
-    url = config["site"]["url"]
+    url = config["server"]["url"]
+    headers = config["server"]["headers"]
     ug = config["client"]["ug"]
 
     # Make a log info about the data will be send
@@ -39,7 +40,7 @@ def sendData(timestamp, value):
     
     # Try post the data
     try:
-        r = requests.post(url, data=data)
+        r = requests.post(url, data=data, headers=headers)
         print("Uploaded data!")
         printLog("Uploaded data!")
     except Exception as e:
@@ -57,6 +58,11 @@ def sendData(timestamp, value):
         print("Status: " + result["status"])
         printLog("Status: " + result["status"])
     except:
+        print("Error sending data: " + str(e))
+        printLog("Error: sending data" + str(e))
+        print("Adding data to queue...")
+        printLog("Adding data to queue...")
+        addToQueue(timestamp, value)
         result = {"status":"fail"}
         print("Status: " + result["status"])
         printLog("Status: " + result["status"])
