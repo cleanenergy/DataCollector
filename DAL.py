@@ -57,7 +57,7 @@ def sendData(timestamp, value):
         result = ast.literal_eval(result)
         print("Status: " + result["status"])
         printLog("Status: " + result["status"])
-    except:
+    except Exception as e:
         print("Error sending data: " + str(e))
         printLog("Error: sending data" + str(e))
         print("Adding data to queue...")

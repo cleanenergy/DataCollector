@@ -1,6 +1,6 @@
 {
   "server":{
-    "url":"http://clean.eco.br/medicao/lancar/",
+    "url":"https://clean.eco.br/medicao/lancar/",
     "headers": {
     	"Host": "clean.eco.br",
     	"Origin": "https://clean.eco.br",
