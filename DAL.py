@@ -37,7 +37,7 @@ def sendData(timestamp, value):
     data = {'ug':ug, 'data_hora':timestamp, 'medida':value}
     print("Data to send:\n" + str(data) + "\n Sending...")
     printLog("Data to send:\n" + str(data) + "\n Sending...")
-    
+    flag = False
     # Try post the data
     try:
         r = requests.post(url, data=data, headers=headers)
@@ -48,7 +48,7 @@ def sendData(timestamp, value):
         printLog("Error: sending data" + str(e))
         print("Adding data to queue...")
         printLog("Adding data to queue...")
-        addToQueue(timestamp, value)
+        flag = True
 
     # Try get post response informations
     try:
@@ -62,11 +62,14 @@ def sendData(timestamp, value):
         printLog("Error: sending data" + str(e))
         print("Adding data to queue...")
         printLog("Adding data to queue...")
-        addToQueue(timestamp, value)
+        flag = True
         result = {"status":"fail"}
         print("Status: " + result["status"])
         printLog("Status: " + result["status"])
-    
+
+    if flag:
+        addToQueue(timestamp, value)
+
     return result
 
 def getMeasure():
